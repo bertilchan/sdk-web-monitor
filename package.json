@@ -1,0 +1,24 @@
+{
+  "name": "monitor-sdk",
+  "version": "1.0.0",
+  "description": "web monitor",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-typescript": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint": "^8.22.0",
+    "rollup": "^2.78.0"
+  },
+  "dependencies": {
+    "tslib": "^2.4.0"
+  }
+}
