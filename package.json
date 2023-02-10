@@ -1,7 +1,7 @@
 {
-  "name": "web-monitor-sdk",
+  "name": "sdk-web-monitor",
   "version": "1.0.0",
-  "description": "Web-monitor-sdk is a front-end monitoring SDK plug-in implemented through TypeScript writing and Rollup tool packaging",
+  "description": "Sdk-web-monitor is a front-end monitoring SDK plug-in implemented through TypeScript writing and Rollup tool packaging",
   "main": "index.ts",
   "scripts": {
     "dev": "rollup -c --watch",

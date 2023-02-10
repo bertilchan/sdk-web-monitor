@@ -1,6 +1,6 @@
-## 前端监控插件 web-monitor-sdk
+## 前端监控插件 sdk-web-monitor
 
-`web-monitor-sdk` 是通过`TypeScript`编写和`Rollup`工具打包来实现的一个前端监控SDK插件——使用方便、易扩展，目前已实现页面性能监控、异常监控、Http网络请求监控、用户行为监控的数据采集与上报至监控后台等基本功能。
+`sdk-web-monitor` 是通过`TypeScript`编写和`Rollup`工具打包来实现的一个前端监控SDK插件——使用方便、易扩展，目前已实现页面性能监控、异常监控、Http网络请求监控、用户行为监控的数据采集与上报至监控后台等基本功能。
 
 ## ✨功能介绍
 
@@ -55,13 +55,13 @@ Http网络请求监控主要是采集网站的所有网络请求数据（包括x
 ##### 1.安装项目依赖
 
 ```bash
-npm i web-monitor-sdk -S # 或者 yarn add web-monitor-sdk
+npm i sdk-web-monitor -S # 或者 yarn add sdk-web-monitor
 ```
 
 ##### 2.导入
 
 ```js
-import { initMonitor } from 'web-monitor-sdk'
+import { initMonitor } from 'sdk-web-monitor'
 ```
 
 ##### 3.初始化
