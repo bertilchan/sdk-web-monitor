@@ -5,7 +5,7 @@ export default {
     input: 'src/index.ts',
     output: [
         {
-            file: '../DataVisual/sdk/bundle.js',
+            file: 'dist/bundle.js',
             format: 'esm',
         }
     ],
